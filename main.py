@@ -5,6 +5,31 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import seaborn as sns
 import functions
+import time
+import io
+import csv
+import sys
+import os
+# Sidebar and main screen text and title.
+st.title("WhatsApp Chat Analyzer 😃")
+st.markdown(
+    "This app is use to analyze your WhatsApp Chat using the exported text file 📁.")
+st.sidebar.image("./assets/images/banner.jpeg",use_column_width=True)
+st.sidebar.title("Analyze:")
+st.sidebar.markdown(
+    "This app is use to analyze your WhatsApp Chat using the exported text file 📁.")
+st.sidebar.markdown('<b>Prem Chandra Singh</b>\
+                <a href = "https://github.com/pcsingh/WhatsApp-Chat-Analyzer/" ><img src = "https://img.shields.io/badge/Author-@pcsingh-gray.svg?colorA=gray&colorB=dodgerblue&logo=github"/>\
+                <a/>', unsafe_allow_html=True)
+
+st.sidebar.markdown('**How to export chat text file?**')
+st.sidebar.text('Follow the steps 👇:')
+st.sidebar.text('1) Open the individual or group chat.')
+st.sidebar.text('2) Tap options > More > Export chat.')
+st.sidebar.text('3) Choose export without media.')
+
+st.sidebar.markdown('*You are all set to go 😃*.')
+
 
 st.title('WhatsApp Chat Analyzer')
 file = st.file_uploader("Choose a file")
@@ -12,7 +37,7 @@ file = st.file_uploader("Choose a file")
 if file:
     df = functions.generateDataFrame(file)
     try:
-        dayfirst = st.radio("Select Date Format in text file:",('dd-mm-yy', 'mm-dd-yy'))
+        dayfirst = st.radio("Select Date Format in text file:",('DD-MM-YY', 'MM-DD-YY'))
         if dayfirst=='dd-mm-yy':
             dayfirst=True
         else:
@@ -123,3 +148,8 @@ if file:
 
     except Exception as e:
         st.subheader("Unable to Process Your Request")
+
+st.sidebar.markdown(
+    "[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/sshemanth/)")
+st.sidebar.markdown(
+    "[![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://www.linkedin.com/in/sshemanth/)")
