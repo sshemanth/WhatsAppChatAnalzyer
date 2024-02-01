@@ -5,11 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import seaborn as sns
 import functions
-import time
-import io
-import csv
-import sys
-import os
+
 # Sidebar and main screen text and title.
 st.title("WhatsApp Chat Analyzer 😃")
 st.markdown(
