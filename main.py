@@ -7,24 +7,24 @@ import seaborn as sns
 import functions
 
 # Sidebar and main screen text and title.
-st.title("WhatsApp Chat Analyzer 😃")
+st.title("WhatsApp Chat Analyzer ")
 st.markdown(
-    "This app is use to analyze your WhatsApp Chat using the exported text file 📁.")
+    "This app is use to analyze your WhatsApp Chat using the exported text file .")
 st.sidebar.image("./assets/images/banner.jpeg",use_column_width=True)
 st.sidebar.title("Analyze:")
 st.sidebar.markdown(
-    "This app is use to analyze your WhatsApp Chat using the exported text file 📁.")
+    "This app is use to analyze your WhatsApp Chat using the exported text file .")
 st.sidebar.markdown('<b>Sri Sai Hemanth Bollepalli</b>\
                 <a href = "https://github.com/pcsingh/WhatsApp-Chat-Analyzer/" ><img src = "https://img.shields.io/badge/Author-@sshemanth-gray.svg?colorA=gray&colorB=dodgerblue&logo=github"/>\
                 <a/>', unsafe_allow_html=True)
 
 st.sidebar.markdown('**How to export chat text file?**')
-st.sidebar.text('Follow the steps 👇:')
+st.sidebar.text('Follow the steps :')
 st.sidebar.text('1) Open the individual or group chat.')
 st.sidebar.text('2) Tap options > More > Export chat.')
 st.sidebar.text('3) Choose export without media.')
 
-st.sidebar.markdown('*You are all set to go 😃*.')
+st.sidebar.markdown('*You are all set to go *.')
 
 
 st.title('WhatsApp Chat Analyzer')
