@@ -1,5 +1,5 @@
 # WhatsApp Chat Analyzer
-![whatsapp](assets/images/banner.jpeg)
+![whatsapp](image.jpeg)
 ## Overview
 WhatsApp Chat Analyzer is a tool designed to analyze and extract insights from WhatsApp chat data. This project aims to provide users with valuable information, statistics, and visualizations based on their WhatsApp conversations.
 
