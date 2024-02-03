@@ -9,9 +9,9 @@ import functions
 # Sidebar and main screen text and title.
 st.title("WhatsApp Chat Analyzer ")
 st.markdown(
-    "designed to extract insights from WhatsApp chat data. It analyzes message count, user activity, word frequency, sentiment, and media sharing patterns. Users can understand communication dynamics, identify trends, and gain insights into the content of their WhatsApp conversations.")
-st.sidebar.image("./assets/images/banner.jpeg",use_column_width=True)
-st.sidebar.title("Whatsapp Analyzer:")
+    "This app is designed to extract insights from WhatsApp chat data. It analyzes message count, user activity, word frequency, sentiment, and media sharing patterns. Users can understand communication dynamics, identify trends, and gain insights into the content of their WhatsApp conversations.")
+st.sidebar.image("image.jpeg",use_column_width=True)
+st.sidebar.title("Whatsapp Chat Analyzer:")
 st.sidebar.markdown(
     "This app is use to analyze your WhatsApp Chat using the exported text file .")
 st.sidebar.markdown('<b>Sri Sai Hemanth Bollepalli</b>\
